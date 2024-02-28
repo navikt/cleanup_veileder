@@ -1,0 +1,5 @@
+# Future developments
+
+Text sanitisation is a field of active and ongoing research. As techniques to process and make use of text advance and evolve, we are likely to see new methods and techniques emerge that may improve on the methods presented herein. 
+
+Here we list some of the problems that actively being worked on by the research community.

@@ -1,10 +1,25 @@
-# ai-lab-mal
 
-Mal for repoer som skal brukes til analyse, modellbygging etc.
+# CLEANUP: veileder i tekstanonymisering
 
-Foreløpig innhold/bruksanvisning:
+Repo for en quarto book om tekstanonymisering.
 
-1. `.gitignore` er tilpassa Python prosjekt
-2. `INITIALIZE.sh` inneholder shell-kommandoer som skal kjøres når man aktiverer repoet for et nytt prosjekt. P.t. er det `nbstripout` som ligger her.
+# Komme i gang
 
-Er det flere ting man vil legge til malen så er det bare å committe endringer til dette repoet.
+
+Klone repo. Installer quarto (quarto.org).
+
+```python3 -m venv env```
+
+```. ./env/bin/activate```
+
+```quarto render```
+
+# Henvendelser
+
+Spørsmål knyttet til koden eller prosjektet kan stilles som issues her på GitHub
+
+### For NAV-ansatte
+Interne henvendelser kan sendes via Slack i kanalen #tada.
+
+
+

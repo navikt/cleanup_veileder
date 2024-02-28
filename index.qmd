@@ -1,0 +1,17 @@
+# Preface {.unnumbered}
+
+**Text is everywhere and surrounds us everyday. Sometimes this text contains personal information you want removed. This guide tells you how to proceed.**  
+
+While well established anonymisation techniques from [statistical disclosure control](https://sdcpractice.readthedocs.io/en/latest/index.html) and [differential privacy](https://salil.seas.harvard.edu/sites/scholar.harvard.edu/files/salil/files/differential_privacy_primer_nontechnical_audience.pdf) largely focus on structured  data - such tabular data in databases - unstructured data’s anonymization requirements remain largely unclear and underaddressed. In particular, formal requirements of robust text anonymisation remain a largely unexplored and uncharted territory.
+
+Meanwhile, rapid advances in [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) have paved the way for the development of new methods and tools to identify disclosive elements in text and to process text with aim to preserve confidentiality and reduce the risk of disclosing personal information. 
+
+**This guide aims to give the practitioner insights into some of the key issues and challenges, along with guidance on best practices given current state of research in this quickly evolving field.**
+
+
+:::{.callout-caution title="Use with caution!"}
+Although there are many methods and packages claiming to ensure anonymity in text, be mindful that research on text sanitisation and anonymization is still young. To date, there is no definitive, widely recognized method or well established practice to ensure that a text is (legally) anonymous. However, there is still much you can do to reduce the risk of a text revealing personal information. This guide provides an overview of the tools available and highlights best practices from the forefront of text-sanitisation research today. **It does *not* however provide any guarantees and the user is urged to consult with local legal and domain experts to ensure sufficient compliance in their particular cases**.
+:::
+
+
+*This work is a collaborative project between [Norsk Regnesentral](nr.no) and [NAV](nav.no) through the [CLEANUP-project](https://cleanup.nr.no) funded by grant XYZ through [The Research Council of Norway](https://www.forskningsradet.no/en/).*

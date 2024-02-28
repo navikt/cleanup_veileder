@@ -1,0 +1,25 @@
+---
+title: "About"
+subtitle: "Why did we write this guidebook?"
+---
+
+**The CLEANUP guide** is a collaborative project between [NR](https://nr.no) and [NAV](https://www.nav.no) with aim make state-of-the-art text sanitisation techniques accessible and applicable to practioneers who may not have extensive knowledge of developments , innovations and challenges in the field. 
+
+
+## Goals
+The goals of this project are three-fold:
+
+- Offering novice practitioners insights into the distinctive challenges of disclosure control in text data, along with a foundational introduction to and understanding of key concepts essential for the responsible application of text sanitization techniques.
+
+- Practical guidance on how methods and tools can and ought to be applied given the current state of research. This includes an appreciation of how residual risk can be evaluated and what these risks entail.
+
+- A platform for dissiminating new insights and methods from an evolving field, and allowing the non-initiated practitioneer access to methods and tools from the forefront of academic research.
+
+While guidance and toolkits for tabular data are comparatively rich and varied, there are few resources that provide practical guidance on text sanitisation. It is our hope that this guidebook provides useful advice to address this gap and assists practitioners in effectively sanitizing text documents while preserving their informative content
+
+##
+::: {layout-ncol=2}
+![](decorations/NR-logo_utvidet.png){fig-alt="The NR logo" fig-align="left" width=40% fig-pos='b'}
+
+![](decorations/nav-logo-red.svg){fig-alt="The NAV logo" fig-align="right" width=20% fig-pos='b'}
+:::

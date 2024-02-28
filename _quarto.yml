@@ -1,0 +1,40 @@
+project:
+  type: book
+  render:
+    - "*.qmd"
+
+metadata-files:
+  - yml/_book.yml
+
+body-footer: "This is footer."
+
+execute: 
+  echo: false
+
+#language: quarto-tweaks/_quarto_language.yml
+
+crossref:
+  chapters: true
+  fig-prefix: Fig.   # (default is "Figure")
+  tbl-prefix: Tab.  # (default is "Table")
+
+
+format:
+  html:
+    theme: 
+      - custom.scss
+      - cosmo
+    toc: true
+    mainfont: "Source Sans Pro"
+    fontsize: "18px"
+    fontcolor: "#262626"
+    code-fold: true
+
+jupyter: python3
+
+
+
+bibliography: references.bib
+
+
+

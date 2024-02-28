@@ -1,0 +1,13 @@
+# Is it possible to anonymise text in the legal sense? {#sec-legal}
+
+Adding a reference to the article [@ipac008] to see how it appears here and in references.
+
+## GDPR and the concept of "anonymous data"
+
+### Risk-based approach:
+Offers a nuanced test consistent with GDPR’s purposes.
+
+### Strict approach:
+Makes anonymization of unstructured data virtually impossible as long as the original data exists.
+	
+## What should you do? 

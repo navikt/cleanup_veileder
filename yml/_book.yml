@@ -1,0 +1,35 @@
+book:
+  title: "The CLEANUP guide"
+  subtitle: "A practical guidebook for text sanitisation"
+  author: "NR and NAV through the [CLEANUP-project](https://cleanup.nr.no)"
+    #date: "4/25/2023"
+  date: last-modified
+  date-format: "4/25/2023  ([Oppdatert: ] DD/MM/YY)"
+  #site-url: https://data.nav.no/omverdensanalyse
+  #cover-image: decorations/Bilde%20innvendig%20forside.png
+  #cover-image-alt: |
+  #  En fotomontasje: Foran 2 hender som holder en minitatyrglobus. I bakgrunnen vises unge mennesker som bruker mobiltelefon,  solcellepaneler, et grensesnitt på en glassvegg, arbeidshjelm oppå arbeidshansker, en omsorgsarbeider som viser omsorg for en eldre person og penger i en lommebok.
+  abstract: "This is an abstract."
+  cover-image: decorations/crowd.png
+
+  page-footer:
+    center: 
+      - href: "about.qmd"
+    border: true
+
+  chapters:
+    - index.qmd
+    - chapters/intro.qmd
+    - chapters/legal.qmd
+    - chapters/identifyingPI.qmd
+    - chapters/example_notebook.ipynb
+    - chapters/replacingPI.qmd
+    - chapters/disclosureRisk.qmd
+    - epilogue.qmd
+    - references.qmd
+
+
+
+  navbar:
+    background: light
+    logo: decorations/crowd.png

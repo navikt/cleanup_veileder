@@ -1,0 +1,41 @@
+# Why is text so hard to anonymise?
+
+
+## Main challenges
+
+- **Ambiguity**:
+
+::: {.column-margin}
+A single word may carry multiple meanings. Consider the word **"Apple"**. It may refer to a fruit or an IT-company. In the phrase *"The apple of my eye"* it refers to a cherished person. The meaning is only inferred from context.
+:::
+
+A given word or phrase may have multiple meanings, which are often only inferred through the context they appear in. The word *"Apple"* may refer to a fruit or an IT-company. In the phrase 
+
+> *The apple of my eye*
+
+``` markdown  
+    The apple of my eye
+```
+
+it refers to a person that is cherished. The meaning the word carries is inferred from context.
+
+Robust anonymization of text therefore needs to take contextual factors into consideration when deciding which part of the text may contribute to the risk of disclosing personal information. 
+
+- **Heterogenity**:
+
+Text appears in many forms, shapes and sizes. Some texts may be concise and follow a specific scheme, while others are free form and represent stylistic choices of the author. Personal information can appear in a single sentence, but are other times revealed not in single sentences, but rather in paragraphs and passages. Personal information hidden in text does not follow a specific schema that allows for easy identification of attributes that are associated with an individual. It is therefore not obvious what one should look for, when identifying elements that may disclose personal information.
+
+- **Traditional anonymisation techniques often fall short**:
+
+Many techniques have been developed to ensure the confidentiality of tabular data, such as .eg. generalisation, suppression, perturbation or aggregation. Aggregation, in particular, is a commonly employed to bundle individuals into larger groups thus limiting the disclosure of personal information about individuals. None of these can be employed on text in a straightforward fashion. Text is unstructured, two items are rarely follow the same schema, aggregation is therefore seldom a feasible option.   
+
+When dealing with text-data we therefore tend to rely on various masking techniques, where individual words or phrases are redacted or replaced by alternatives. Such operation may however not only serve to remove information, (as they would with tabular data), but also alter the semantic content of the sentence of phrase. 
+
+- **Redacted text can easily be linked back to its original source**:
+
+A text consists of a number of unique words, in unique sequences. Even if revealing items in text are removed and redacted or replaced with alternatives, the resulting text will likely bear great semblance to the original document. This increases the risk of linking attacks, whereby the attacker is able to link back the sanitised document to its source and hence extract personal information.
+
+
+
+- Hva er det vi ønsker å beskytte mot?
+- Hvorfor er det ikke tilstrekkelig å fjerne navn og adresser?

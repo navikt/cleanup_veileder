@@ -1,0 +1,21 @@
+# How do you identify the elements in a text that can disclose personal information? {#sec-identifyingPI}
+
+Here we discuss how disclosive elements can be found.
+
+Integrating som python code as an example
+
+## A simple example using native NER model in Spacy
+
+Let us define a simple function that takes a string and returns a dataframe holding the NER counts in that string.
+
+{{< embed example_notebook.ipynb#simple-NER-count echo=true >}}
+
+
+Now let us define a string that contains elements we want the NER-model to identify:
+
+{{< embed example_notebook.ipynb#example-string >}}
+
+
+Now let us apply the function we defined above on this string to see how many named entities it recognises:
+
+{{< embed example_notebook.ipynb#NER-example >}}
